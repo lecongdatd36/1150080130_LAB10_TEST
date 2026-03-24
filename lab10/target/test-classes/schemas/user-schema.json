@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "data": { "type": "object" },
+    "support": { "type": "object" }
+  },
+  "required": [
+    "data",
+    "support"
+  ]
+}

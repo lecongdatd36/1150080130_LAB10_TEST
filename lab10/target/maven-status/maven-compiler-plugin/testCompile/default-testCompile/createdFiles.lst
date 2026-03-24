@@ -1,0 +1,15 @@
+api\UserSchemaTest.class
+api\CommentApiTest.class
+api\PerformanceTest.class
+api\PostApiTest.class
+api\IntegrationApiUiTest.class
+api\MockApiServer.class
+api\AuthTest.class
+api\UserCrudTest.class
+model\UserResponse.class
+api\MockApiServer$User2Handler.class
+model\CreateUserRequest.class
+api\MockApiServer$1.class
+api\MockApiServer$UsersHandler.class
+api\UserApiTest.class
+base\ApiBaseTest.class

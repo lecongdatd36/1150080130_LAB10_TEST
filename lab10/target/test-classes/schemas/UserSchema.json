@@ -1,0 +1,47 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "string"
+        },
+        "username": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "address": {
+            "type": "object",
+            "properties": {
+                "street": {
+                    "type": "string"
+                },
+                "suite": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "zipcode": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "street",
+                "suite",
+                "city",
+                "zipcode"
+            ]
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "username",
+        "email",
+        "address"
+    ]
+}

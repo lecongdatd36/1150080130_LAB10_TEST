@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T16:50:12 GMT+07:00" name="TestSuite" finished-at="2026-03-24T16:50:18 GMT+07:00" duration-ms="5767">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T16:50:12 GMT+07:00" name="API Tests" finished-at="2026-03-24T16:50:18 GMT+07:00" duration-ms="5767">
+      <class name="api.CommentApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.CommentApiTest@d554c5f]" started-at="2026-03-24T16:50:17 GMT+07:00" name="setup" finished-at="2026-03-24T16:50:17 GMT+07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getCommentsByPostId_ShouldReturnFiveComments()[pri:0, instance:api.CommentApiTest@d554c5f]" started-at="2026-03-24T16:50:17 GMT+07:00" name="getCommentsByPostId_ShouldReturnFiveComments" finished-at="2026-03-24T16:50:18 GMT+07:00" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsByPostId_ShouldReturnFiveComments -->
+      </class> <!-- api.CommentApiTest -->
+      <class name="api.PostApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.PostApiTest@68c9d179]" started-at="2026-03-24T16:50:15 GMT+07:00" name="setup" finished-at="2026-03-24T16:50:15 GMT+07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createPost_ShouldReturn201_AndValidPayload()[pri:0, instance:api.PostApiTest@68c9d179]" started-at="2026-03-24T16:50:15 GMT+07:00" name="createPost_ShouldReturn201_AndValidPayload" finished-at="2026-03-24T16:50:16 GMT+07:00" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPost_ShouldReturn201_AndValidPayload -->
+        <test-method signature="deletePost_ShouldReturn200()[pri:0, instance:api.PostApiTest@68c9d179]" started-at="2026-03-24T16:50:16 GMT+07:00" name="deletePost_ShouldReturn200" finished-at="2026-03-24T16:50:16 GMT+07:00" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePost_ShouldReturn200 -->
+        <test-method signature="getPostById_ShouldReturnCorrectData_AndPassSchema()[pri:0, instance:api.PostApiTest@68c9d179]" started-at="2026-03-24T16:50:16 GMT+07:00" name="getPostById_ShouldReturnCorrectData_AndPassSchema" finished-at="2026-03-24T16:50:16 GMT+07:00" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostById_ShouldReturnCorrectData_AndPassSchema -->
+        <test-method signature="updatePost_ShouldReturn200_AndUpdatedTitle()[pri:0, instance:api.PostApiTest@68c9d179]" started-at="2026-03-24T16:50:16 GMT+07:00" name="updatePost_ShouldReturn200_AndUpdatedTitle" finished-at="2026-03-24T16:50:17 GMT+07:00" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePost_ShouldReturn200_AndUpdatedTitle -->
+      </class> <!-- api.PostApiTest -->
+      <class name="api.UserApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.UserApiTest@790da477]" started-at="2026-03-24T16:50:12 GMT+07:00" name="setup" finished-at="2026-03-24T16:50:12 GMT+07:00" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getInvalidUser_ShouldReturn404()[pri:0, instance:api.UserApiTest@790da477]" started-at="2026-03-24T16:50:12 GMT+07:00" name="getInvalidUser_ShouldReturn404" finished-at="2026-03-24T16:50:14 GMT+07:00" duration-ms="1291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInvalidUser_ShouldReturn404 -->
+        <test-method signature="getUserById_ShouldMatchExpectedName_AndSchema()[pri:0, instance:api.UserApiTest@790da477]" started-at="2026-03-24T16:50:14 GMT+07:00" name="getUserById_ShouldMatchExpectedName_AndSchema" finished-at="2026-03-24T16:50:15 GMT+07:00" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserById_ShouldMatchExpectedName_AndSchema -->
+        <test-method signature="getUsers_ShouldReturn10Users()[pri:0, instance:api.UserApiTest@790da477]" started-at="2026-03-24T16:50:15 GMT+07:00" name="getUsers_ShouldReturn10Users" finished-at="2026-03-24T16:50:15 GMT+07:00" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers_ShouldReturn10Users -->
+      </class> <!-- api.UserApiTest -->
+    </test> <!-- API Tests -->
+  </suite> <!-- TestSuite -->
+</testng-results>
